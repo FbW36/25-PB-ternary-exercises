@@ -1,0 +1,1 @@
+# 25-PB-ternary-exercises
