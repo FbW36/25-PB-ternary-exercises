@@ -32,11 +32,11 @@ let num1 = 30;
 let num2 = 939;
 let num3 = 40.9;
 
-let checkEven1 = num1%2 ? "30 is even" : "is odd";
-let checkEven2 = num2%2 ? "939 is even" : "is odd";
-let checkEven3 = num3%2 ? "40.9 is even" : "is odd";
+let checkEven1 = num1%2 === 0? "30 is even" : "is odd";
+let checkEven2 = num2%2 === 0 ? "939 is even" : "is odd";
+let checkEven3 = num3%2 === 0? "40.9 is even" : "is odd";
 console.log(checkEven1);
 console.log(checkEven2);
 console.log(checkEven3);
 
-// i dont understand why it is working now the other way around. 30 is even :/ and the others are odd
+//thanks for the tipp cia :D
